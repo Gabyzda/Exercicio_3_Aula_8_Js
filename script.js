@@ -45,13 +45,13 @@ function MostrarPessoaMaisVelha() { // função para mostrar a pessoa mais velha
      let pessoaMaisVelha = calcularPessoaMaisVelha(pessoas); // chamamos nossa função criada anteriormente
      console.log(`A pessoa mais velha é: ${pessoaMaisVelha.nome} com ${pessoaMaisVelha.idade} anos`); // criamos uma mensagem personalizada para mostrar os dados
      return 
-  }
+}
 
-  function MostrarPessoaMaisJovem() {
+function MostrarPessoaMaisJovem() {
     let pessoaMaisJovem = calcularPessoaMaisJovem(pessoas); // chamamos nossa função criada anteriormente
     console.log(`A pessoa mais jovem é: ${pessoaMaisJovem.nome} com ${pessoaMaisJovem.idade} anos`);// criamos uma mensagem personalizada para mostrar os dados
     return
- }
+}
  //vamos chamar as funções para mostrar os dados no console.
  pessoas.forEach(MostrarTodosOsRegistros);
  MostrarPessoaMaisVelha();
